@@ -1,0 +1,38 @@
+footer {
+  background-color: $secondary;
+  color: $accent;
+  padding: 30px 0;
+  top: 0;
+  flex-shrink: 0;
+}
+
+.footer-text {
+  width: 5%;
+  font-size: 30pt;
+  line-height: 60%;
+  text-transform: lowercase;
+  font-family: "Grand Hotel", cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fab {
+  font-size: 30px !important;
+  color: $accent !important;
+}
+
+.menu {
+  li {
+    display: inline-block !important;
+  }
+}
+
+
+@media (max-width: $sm) {
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+}

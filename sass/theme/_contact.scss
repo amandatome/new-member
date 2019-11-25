@@ -1,0 +1,64 @@
+.contact {
+  background-color: $accent;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#wpcf7-f163-p161-o1 {
+  input[type="submit"] {
+    color: $accent;
+    background: $secondary;
+    border: none;
+    font-size: 16pt;
+    // width: 700px!important;
+  }
+}
+
+.wp-block-column {
+  p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  form {
+    input[type="submit"] {
+      color: white;
+      background: $accent;
+      border: none;
+      padding: 15px;
+    }
+  }
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  background-color: $background;
+  border: solid $background 2px;
+  padding: 10px;
+  // width: 695px!important
+}
+
+span.wpcf7-list-item {
+  display: block !important;
+}
+
+span.wpcf7-list-item-label {
+  margin-right: 10px;
+}
+
+.responsive-map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.responsive-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

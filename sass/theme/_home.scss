@@ -1,0 +1,89 @@
+.jumbotron{
+  text-align: center;
+  padding: 55px 0;
+  background: $background;
+    h1 {
+    color: $accent
+  }
+}
+
+.cat {
+  background-color: $secondary!important;
+  h2 {
+    color: $accent;
+  }
+  .pet-color {
+    color: $accent!important;
+  }
+  line-height: 120%;
+}
+
+.dog {
+  background-color: $accent!important;
+  line-height: 120%;
+  h2 {
+    color: $secondary;
+  }
+  .pet-color {
+    color: $accent!important;
+  }
+}
+
+//Featured section
+.featured-name {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 30pt;
+}
+
+.featured-stories {
+  background-color: $accent;
+  color: white;
+}
+
+#story-title {
+  font-size: 66px;
+}
+
+
+.fas {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+//Blog
+.blog {
+  background-color:  $background;
+  h3 {
+    color: $primary;
+  }
+  hr {
+    border: $primary 2px dashed;
+  }
+  #searchform {
+    margin-bottom: 2px;
+    input[type='text'] {
+      width: 50px!important;
+      border: $accent 1px solid;
+      margin-right: 5px
+    }
+    #searchsubmit {
+      padding: 5px!important;
+    }
+   
+  }
+}
+
+#right-sidebar {
+  border-left: $accent solid 1px;
+}
+
+#searchform {
+
+  input[type='text'] {
+    width: 50px!important;
+    border: $accent 1px solid;
+  }
+ 
+}
+

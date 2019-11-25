@@ -1,0 +1,62 @@
+.adoptables {
+  background-color: $accent;
+  padding: 100px 0;
+  h4 {
+    color: white;
+    margin: 0 0 15px 130px;
+  }
+}
+
+.card {
+  background-color: $background!important;
+  h3 {
+    color: $primary;
+  }
+  a:hover {
+    color: $secondary;
+  }
+  img {
+    object-fit: cover;
+    height: 17rem;
+  }
+}
+
+// ==========================
+.adoptable-content {
+  background-color: $background;
+}
+
+.single-page-adoptables  {
+  background-color: $accent;
+  line-height: 120%!important;
+}
+
+//Adoption form
+.adopt-application {
+  background-color: $accent;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+form {
+  input[type='submit'] {
+    color: $accent!important;
+    background-color: $secondary!important;
+    border: none;
+    padding: 15px;
+    width: 100%!important;
+  }
+}
+
+#single{
+  color: $secondary;
+}
+
+.related{
+  background-color: $secondary;
+  border-bottom: solid $accent 3px;
+  h2 {
+    color: $accent;
+  }
+}
