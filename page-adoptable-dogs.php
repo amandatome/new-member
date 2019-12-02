@@ -25,7 +25,7 @@ function small_dog()
 			<?php $dog_age = get_field('dog_age');
 						$dog_weight = get_field('dog_weight');
 						$dog_breed = get_field("dog_breed"); ?>
-			<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+			<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 				<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'dog-image')); ?>
@@ -77,7 +77,7 @@ function medium_dog()
 			<?php $dog_age = get_field('dog_age');
 						$dog_weight = get_field('dog_weight');
 						$dog_breed = get_field("dog_breed"); ?>
-						<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+						<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 				<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'dog-image')); ?>
@@ -128,7 +128,7 @@ function large_dog()
 			<?php $dog_age = get_field('dog_age');
 						$dog_weight = get_field('dog_weight');
 						$dog_breed = get_field("dog_breed"); ?>
-						<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+						<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 					<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'dog-image')); ?>

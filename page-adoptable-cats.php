@@ -26,7 +26,7 @@ function small_cat()
 			<?php $cat_age = get_field('cat_age');
 						$cat_weight = get_field('cat_weight');
 						$cat_color = get_field("cat_color"); ?>
-			<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+			<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 				<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'cat-image')); ?>
@@ -76,7 +76,7 @@ function medium_cat()
 			<?php $cat_age = get_field('cat_age');
 						$cat_weight = get_field('cat_weight');
 						$cat_color = get_field("cat_color"); ?>
-			<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+			<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 				<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'cat-image')); ?>
@@ -128,7 +128,7 @@ function large_cat()
 			<?php $cat_age = get_field('cat_age');
 						$cat_weight = get_field('cat_weight');
 						$cat_color = get_field("cat_color"); ?>
-			<div class='col-lg-4 col-md-4 d-flex align-stretch'>
+			<div class='col-lg-4 col-md-4 d-flex align-stretch mb-3'>
 				<div class='card text-center'>
 					<a href="<?php the_permalink(); ?>">
 						<?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'cat-image')); ?>

@@ -6,6 +6,10 @@ footer {
   flex-shrink: 0;
 }
 
+.site-footer{
+  flex-shrink: 1;
+}
+
 .footer-text {
   width: 5%;
   font-size: 30pt;
@@ -30,9 +34,9 @@ li {
 }
 
 
-@media (max-width: $sm) {
-  footer{
-    display: flex;
-    justify-content: center;
-  }
-}
+// @media (max-width: $sm) {
+//   footer{
+//     display: flex;
+//     justify-content: center;
+//   }
+// }

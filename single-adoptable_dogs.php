@@ -16,7 +16,7 @@ foreach ($cats as $cat) {
       <?php $button_adopt_dog = get_field('dog_adopt_button'); ?>
 
       <div class='row pb-4'>
-        <div class='col-lg-10 offset-lg-1 col-md-8'>
+        <div class='col-lg-10 offset-lg-1 col-md-8 offset-md-2'>
           <div class='card text-center'>
             <div class='row no-gutters'>
               <div class='col-md-6'>
@@ -49,7 +49,7 @@ foreach ($cats as $cat) {
 </section>
 <?php endwhile; ?>
 
-<!-- Related Cats -->
+<!-- Related Dogs -->
 <?php
 $cats = get_the_terms($post, 'dogs');
 foreach ($cats as $cat) {
@@ -86,7 +86,7 @@ $args = array(
         while ($relatedPosts->have_posts()) {
           $relatedPosts->the_post();
           ?>
-          <div class='col-md-4'>
+          <div class='col-md-4 mb-2'>
             <div class="card text-center">
               <a href="<?php the_permalink(); ?>">
                 <?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'rectangle', false, array('class' => 'cat-image')); ?></a>

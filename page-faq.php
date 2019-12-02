@@ -2,11 +2,11 @@
 
 <?php get_header(); ?>
 <?php get_template_part( 'global-templates/jumbotron' ); ?>
-
+<main class="site-main">
 <section class='content-faq'>
     <div class="container ">
         <div class='row'>
-            <div class='col-md-12 mb-5'>
+            <div class='col-md-12'>
             <?php
             // check if the repeater field has rows
             if (have_rows('faq')) :
@@ -18,8 +18,8 @@
                     <button class='accordion'>
                         <h3><?php echo $faq_title; ?></h3>
                     </button>
-                    <div class='panel'>
-                        <p><?php echo $faq_content; ?></p>
+                    <div class='panel pb-5'>
+                        <?php echo $faq_content; ?>
                     </div>
                 <?php endwhile; ?>
             <?php endif; ?>
@@ -28,5 +28,5 @@
     </div>
 
 </section>
-
+</main>
 <?php get_footer(); ?>

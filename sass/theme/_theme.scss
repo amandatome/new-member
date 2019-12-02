@@ -1,8 +1,18 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+html, body {
+  height: 100%;
+}
 body {
   font-family: "Barlow", sans-serif;
   line-height: 1.5;
   font-size: 16pt;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-main {
+  flex: 1 0 auto;
 }
 
 h1 {

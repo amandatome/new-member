@@ -60,3 +60,8 @@ form {
     color: $accent;
   }
 }
+
+@media (max-width: $xs) {
+  .medium, .small, .large, #single {
+text-align: center  }
+}

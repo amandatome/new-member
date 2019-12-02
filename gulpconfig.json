@@ -1,8 +1,8 @@
 {
-	"browserSyncOptions": {
-		"proxy": "localhost:8080/",
-		"notify": false
-	},
+	"browserSyncOptions" : {
+        "proxy": "localhost:8888", 
+        "notify": false
+    },
 	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],
 	"paths": {
 		"js": "./js",
